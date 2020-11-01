@@ -1,5 +1,7 @@
-<?php
+<?php　
+// PHP/Laravel 08 ControllerとRoutingの関係について理解しよう 課題4
 
+//artisanを使用し、このAdmin/ProfileControllerを作成
 namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
@@ -7,7 +9,8 @@ use App\Http\Controllers\Controller;
 
 class ProfileContoroller extends Controller
 {
-     //以下を追加
+     //PHP/Laravel 08 ControllerとRoutingの関係について理解しよう 課題5
+    
      public function add()
     {
         return view('admin.profile.create');
